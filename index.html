@@ -140,7 +140,7 @@
   const startBtn = document.getElementById('startBtn');
   const restartBtn = document.getElementById('restartBtn');
 
-  const socket = new WebSocket('ws://localhost:8080'); // change to your deployed server
+  const socket = new WebSocket('https://treviagames-dusv.onrender.com'); // change to your deployed server
 
   const players = new Map(); // id => {x,y,color}
   let playerId = null;
